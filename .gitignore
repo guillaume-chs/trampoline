@@ -3,7 +3,6 @@
 # Removing unused folders
 #
 
-debug
 documentation
 
 machines/*
