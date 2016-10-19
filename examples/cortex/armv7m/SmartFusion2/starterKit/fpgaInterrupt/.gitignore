@@ -1,6 +1,0 @@
-blinkAndFPGA
-build
-*_exe.elf
-*.bin
-*.map
-*.py

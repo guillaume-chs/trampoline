@@ -1,3 +1,20 @@
+#
+# Cross-compilation & Flashing only !
+# Removing unused folders
+#
+
+debug
+documentation
+
+machines/*
+!machines/avr
+
+examples/*
+!examples/avr/arduinoUno
+
+
+### Base .gitignore
+
 *~
 ## Vim...
 .*.swp
