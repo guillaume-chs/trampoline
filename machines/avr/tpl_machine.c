@@ -42,6 +42,13 @@ void tpl_shutdown(void)
 	while (1); 
 }
 
+
+/*
+ * Fixes bug where `./make.py` can't use "undeclared CallTerminateISR2"
+ */
+extern FUNC(void, OS_CODE) CallTerminateISR2(void);
+
+
 #define AVR_PUSH(val) {*sp=(u8)(val); sp--;}
 
 /*
