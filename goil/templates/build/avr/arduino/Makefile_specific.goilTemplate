@@ -55,6 +55,7 @@ EXTRA_PATH += $(ARDUINO_PATH)/hardware/libraries/EEPROM
 EXTRA_PATH += $(ARDUINO_PATH)/hardware/libraries/SoftwareSerial
 EXTRA_PATH += $(ARDUINO_PATH)/hardware/libraries/SPI
 EXTRA_PATH += $(ARDUINO_PATH)/hardware/libraries/Wire
+EXTRA_PATH += $(ARDUINO_PATH)/libraries/U8glib/src
 INCLUDE_PATH += $(addprefix -I,$(EXTRA_PATH))
 
 OPTIM_FLAGS = -Wall -Os -g
@@ -82,6 +83,7 @@ SOURCES += USBCore.cpp
 SOURCES += WMath.cpp
 SOURCES += WString.cpp
 SOURCES += wiring_digital.c
+SOURCES += wiring_analog.c
 SOURCES += wiring.c
 SOURCES += abi.cpp
 SOURCES += hooks.c

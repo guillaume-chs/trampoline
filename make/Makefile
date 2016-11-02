@@ -156,7 +156,7 @@ CPP = $(CC)
 
 # exe rule -> Link
 $(EXEC): $(OBJ)
-	@echo linking $@
+	@echo linking $@  -  $(LDFLAGS)
 	$(LD) -o $(EXEC) $(OBJ) $(LDFLAGS)
 
 #clean
