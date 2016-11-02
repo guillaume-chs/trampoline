@@ -19,10 +19,10 @@ CPU test {
     STATUS = STANDARD;
     ARDUINO = TRUE {
       SERIAL = TRUE; //use the serial interface 
-      PORT = "/dev/tty.usbmodem1411"; //serial port (flash)
+      PORT = "/dev/ttyACM0"; //serial port (flash)
     };
     BUILD = TRUE {
-      TRAMPOLINE_BASE_PATH = "../../../..";
+      TRAMPOLINE_BASE_PATH = "/home/trampoline";
       APP_NAME = "trampuinoBlink";
       APP_SRC = "blink.cpp";
       CPPCOMPILER = "avr-g++";
