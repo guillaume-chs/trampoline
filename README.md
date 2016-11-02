@@ -24,4 +24,5 @@ Some examples have been added (check examples):
   * **serial**. improve 'blink': use the standard Arduino serial API.
   * **extInterrupt**. improve 'serial': add 2 ISRs to change the alarm period.
 
-FOr further details, refer to [trampoline RTOS](https://github.com/TrampolineRTOS/trampoline)
+For further details, refer to [trampoline RTOS](https://github.com/TrampolineRTOS/trampoline)
+See my docker image : [Trampuino](https://github.com/guillaume-chs/trampuino)
